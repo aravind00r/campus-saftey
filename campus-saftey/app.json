@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "campus-saftey",
+    "slug": "campus-saftey",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/handshake.jpg",
+    "splash": {
+      "image": "./assets/handshake.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.podDevs.campus-saftey"
+    },
+    "android": {
+      "package": "com.podDevs.campus-saftey"
+    }
+  }
+}
