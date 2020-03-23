@@ -5,13 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import MapView from 'react-native-maps';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCGAUa0rtsf-RMBQm8sZnRJo8Hzeb_GDIo",
-  authDomain: "campus-safety-demo.firebaseapp.com",
-  databaseURL: "https://campus-safety-demo.firebaseio.com",
-  projectId: "campus-safety-demo",
-  storageBucket: "campus-safety-demo.appspot.com",
-  messagingSenderId: "627312491888",
-  appId: "1:627312491888:web:955ca0cac7cf98d2a623b5"
+  //put in your own cofig details thanks.
 };
 
 const app = firebase.initializeApp(firebaseConfig);
